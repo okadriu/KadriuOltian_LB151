@@ -4,7 +4,7 @@ Kadriu
 
 | **Datum** | **Version** | **Zusammenfassung**                                              |
 | :-----: | :-------: | :------------------------------------------------------------: |
-|  12.01.2023     | 0.0.1   | Projektbeschreibung geschrieben, Analyse durchgeführt und Technologien ausgewählt, Datenbank ausgewählt und informiert, User Stories und Testfälle zu den Anforderungen geschrieben |
+|  12.01.2023     | 0.0.1   | Projektbeschreibung geschrieben, Analyse durchgeführt und Technologien ausgewählt, Datenbank ausgewählt und informiert, User Stories und Testfälle zu den Anforderungen geschrieben, GUI-Prototypen erstellt |
 |       | 0.0.2   |                                                              |
 |       | 0.0.3   |                                                              |
 |       | 0.0.4   |                                                              |
@@ -88,8 +88,12 @@ Firebase bietet sowohl eine REST-API als auch eine JavaScript-Bibliothek (Fireba
 
 
 # 5 Prototyp
+![GoSpin - Homepage](https://user-images.githubusercontent.com/69577043/212044614-8c3f867a-db4b-4a1a-963e-2aff18d7d7ca.png)
+![GoSpin - Anmelden](https://user-images.githubusercontent.com/69577043/212044641-372b2406-f16c-49dd-a492-6814a6a5f80f.png)
+![GoSpin - Registrieren](https://user-images.githubusercontent.com/69577043/212044659-ee74be50-be06-4baa-a4cf-a73f58464965.png)
+![Spielseite](https://user-images.githubusercontent.com/69577043/212044687-1fd7d325-166d-45c6-8864-d314fa88eaa8.jpg)
+![GoSpin - Administrationsverwaltung](https://user-images.githubusercontent.com/69577043/212045350-f8bd2989-dacb-42f5-b94c-1a1c1ae77c9a.png)
 
-✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
 
 # 6 Implementation
 
