@@ -5,8 +5,8 @@ Kadriu
 | **Datum** | **Version** | **Zusammenfassung**                                              |
 | :-----: | :-------: | :------------------------------------------------------------: |
 |  12.01.2023     | 0.0.1   | Projektbeschreibung geschrieben, Analyse durchgeführt und Technologien ausgewählt, Datenbank ausgewählt und informiert, User Stories und Testfälle zu den Anforderungen geschrieben, GUI-Prototypen erstellt |
-| 12.02.2023      | 0.0.2   |  Projekt erstellt, Seiten erstellt und gestaltet, Admin-Login erstellt und mit der Datenbank (Firebase) verbunden                                                            |
-| 13.03.2023      | 0.0.3   |  Spiel funktioniert noch nicht vollständig, aber es ist spielbar (Bisher nur mit einem Wort und keine Datenbank)                                                            |
+| 12.02.2023      | 0.0.2   |  Projekt erstellt, Seiten erstellt und gestaltet, Admin-Login erstellt und mit der Datenbank (Firebase) verbunden, React-Navigation funktioniert nicht                                                            |
+| 13.03.2023      | 0.0.3   |  React-Navigation gefixed, Spiel funktioniert noch nicht vollständig, aber es ist spielbar (Bisher nur mit einem Wort und keine Datenbank)                                                            |
 |       | 0.0.4   |                                                              |
 |       | 0.0.5   |                                                              |
 |       | 0.0.6   |                                                              |
