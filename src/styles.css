@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.extrabold {
+  font-weight: 800;
+}
+
+.nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  margin-top: -60px;
+}
+
+.gluecksrad {
+  height: 100%;
+}
+
+@media (max-width: 618px) {
+  .adminlogintxt {
+    margin-left: 1.75rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .adminlogintxt,
+  .highscoretxt {
+    margin-top: 20px;
+  }
+  .adminlogintxt {
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 399px) {
+  .herotxt {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 374px) {
+  .adminlogintxt {
+    margin-left: 1.75rem;
+    margin-top: -5px;
+  }
+}
