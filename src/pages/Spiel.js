@@ -1,7 +1,38 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import React, { useState, useRef, useEffect } from "react";
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../firebase";
+import { useHistory } from "react-router-dom";
 
 export default function Spiel() {
+  function EndScreen({ resetGame, setName, setShowGame }) {
+    return (
+      <div className="flex flex-col items-center justify-center h-screen">
+        <p>
+          Du hast das Spiel verloren. Möchtest du erneut spielen oder beenden?
+        </p>
+        <button
+          className="bg-yellow-400 hover:bg-yellow-500 font-bold py-2 px-4 rounded-lg m-2"
+          onClick={() => {
+            resetGame();
+            setShowGame(true);
+          }}
+        >
+          Erneut spielen
+        </button>
+        <button
+          className="bg-red-400 hover:bg-red-500 font-bold py-2 px-4 rounded-lg m-2"
+          onClick={() => {
+            setName(null);
+            setShowGame(false);
+          }}
+        >
+          Spiel beenden
+        </button>
+      </div>
+    );
+  }
+
   const [name, setName] = useState(null);
   const [kontostand, setKontostand] = useState(100);
   const [leben, setLeben] = useState(3);
@@ -18,6 +49,12 @@ export default function Spiel() {
     woerter[Math.floor(Math.random() * woerter.length)]
   );
 
+  /* Datenbank */
+  /*  const [woerter, setWoerter] = useState([]);
+  const [wort, setWort] = useState("dummy"); */
+
+  /* console.log(wort); */ // Aktuelle Redewendung ausgeben
+
   const [userGuess, setUserGuess] = useState("");
   const [isGuessCorrect, setIsGuessCorrect] = useState("");
   const [guessedLetters, setGuessedLetters] = useState([]);
@@ -30,6 +67,18 @@ export default function Spiel() {
     setInitialPurchasedVowels(purchasedVowels);
     setUsedVowels([]);
   }, [wort]);
+
+  /*   useEffect(() => {
+    async function getWoerter() {
+      const woerter = [];
+      const woerterSnapshot = await getDocs(collection(db, "woerterliste"));
+      woerterSnapshot.forEach((doc) => {
+        woerter.push(doc.data().redewendung);
+      });
+      setWoerter(woerter);
+    }
+    getWoerter();
+  }, []); */
 
   const resetGame = () => {
     setWort(woerter[Math.floor(Math.random() * woerter.length)]);
