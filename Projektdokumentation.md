@@ -157,7 +157,7 @@ Firebase bietet sowohl eine REST-API als auch eine JavaScript-Bibliothek (Fireba
 
 # 8 Testprotokoll
 
-✍️ Fügen Sie hier den Link zu dem Video ein, welches den Testdurchlauf dokumentiert.
+https://youtu.be/TqUYyADXi9w
 
 | TC-№ |   Datum    | Resultat |    Tester     |
 | ---- | :--------: | :------: | :-----------: |
