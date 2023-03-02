@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Erste Schritte mit Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dieses Projekt wurde mit [Create React App](https://github.com/facebook/create-react-app) gebootstrapped.
 
-## Available Scripts
+## Verfügbare Skripte
 
-In the project directory, you can run:
+Im Projektverzeichnis können Sie folgendes ausführen:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Startet die App im Entwicklungsmodus.\
+Öffnen Sie [http://localhost:3000](http://localhost:3000), um sie in Ihrem Browser zu betrachten.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Die Seite wird neu geladen, wenn Sie Änderungen vornehmen.\
+Sie können auch alle Lint-Fehler in der Konsole sehen.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Startet den Test Runner im interaktiven Überwachungsmodus.\
+Weitere Informationen finden Sie im Abschnitt über [Tests ausführen] (https://facebook.github.io/create-react-app/docs/running-tests).
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Baut die Anwendung für die Produktion in den `build` Ordner.\
+Es bündelt React korrekt im Produktionsmodus und optimiert den Build für die beste Leistung.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Der Build ist minifiziert und die Dateinamen enthalten die Hashes.\
+Ihre App ist bereit für das Deployment!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Siehe den Abschnitt über [deployment](https://facebook.github.io/create-react-app/docs/deployment) für weitere Informationen.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Hinweis: Dies ist ein einseitiger Vorgang. Sobald Sie `eject` ausführen, können Sie nicht mehr zurück!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Wenn Sie mit der Wahl des Build-Tools und der Konfiguration nicht zufrieden sind, können Sie jederzeit `eject` ausführen. Mit diesem Befehl wird die einzelne Build-Abhängigkeit aus Ihrem Projekt entfernt.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Stattdessen werden alle Konfigurationsdateien und die transitiven Abhängigkeiten (webpack, Babel, ESLint, etc.) direkt in Ihr Projekt kopiert, so dass Sie die volle Kontrolle über sie haben. Alle Befehle mit Ausnahme von "eject" funktionieren weiterhin, aber sie verweisen auf die kopierten Skripte, so dass Sie sie anpassen können. An diesem Punkt sind Sie auf sich allein gestellt.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Sie müssen `eject` nicht mehr verwenden. Der kuratierte Funktionssatz ist für kleine und mittlere Einsätze geeignet, und Sie sollten sich nicht verpflichtet fühlen, diese Funktion zu nutzen. Wir verstehen jedoch, dass dieses Tool nicht nützlich wäre, wenn Sie es nicht anpassen könnten, wenn Sie dazu bereit sind.
 
-## Learn More
+## Firebase Datenbank
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Unter KadriuOltian_LB151 > src > firebase.js können Sie Ihre Firebase (Authentication und Firestore Database) initialisieren, indem Sie einmal die apiKey, authDomain, projectId, storageBucket, messagingSenderId und appId durch Ihre eigenen Werte ersetzen.
+Danach können Sie in der "Authentication"-Section einen Benutzer erstellen (E-Mail und Passwort) und schon funktioniert das Loginformular.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Mehr erfahren
 
-### Code Splitting
+Sie können mehr in der [Create React App Dokumentation](https://facebook.github.io/create-react-app/docs/getting-started) erfahren.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Um React zu lernen, schauen Sie sich die [React-Dokumentation](https://reactjs.org/) an.
 
-### Analyzing the Bundle Size
+### Code-Aufteilung
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Dieser Abschnitt wurde hierher verschoben: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Making a Progressive Web App
+### Analyse der Bundle-Größe
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Dieser Abschnitt wurde hierher verschoben: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Advanced Configuration
+### Erstellen einer progressiven Web-App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Dieser Abschnitt wurde hierher verschoben: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Deployment
+### Erweiterte Konfiguration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Dieser Abschnitt wurde hierher verschoben: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### `npm run build` fails to minify
+### Bereitstellung
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Dieser Abschnitt wurde hierher verschoben: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` schlägt beim Minifizieren fehl
+
+Dieser Abschnitt wurde hierher verschoben: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
