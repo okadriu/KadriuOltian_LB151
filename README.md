@@ -6,6 +6,10 @@ Dieses Projekt wurde mit [Create React App](https://github.com/facebook/create-r
 
 Im Projektverzeichnis können Sie folgendes ausführen:
 
+### `npm install`
+
+Bevor Sie den Befehl `npm start` ausführen, sollten Sie den Befehl `npm install` ausführen, damit alle Dependencies heruntergeladen werden.
+
 ### `npm start`
 
 Startet die App im Entwicklungsmodus.\
